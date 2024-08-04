@@ -4,7 +4,7 @@ import { defineConfig, devices } from '@playwright/test';
 module.exports = defineConfig ({
 
   testDir: 'src/tests',
-  globalSetup : 'utils/globalSetup.ts',
+  globalSetup : 'src/utils/globalSetup.ts',
   reporter: [['list'], ['html', { open: 'never' }]],
 
   use: {
