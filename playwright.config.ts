@@ -10,7 +10,7 @@ module.exports = defineConfig ({
   use: {
     // Base URL to use in actions like `await page.goto('/')`.
     baseURL: 'https://the-internet.herokuapp.com',
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
   
