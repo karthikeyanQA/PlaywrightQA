@@ -15,7 +15,7 @@ module.exports = defineConfig ({
     video: 'retain-on-failure',
   
     // Populates context with given storage state.
-    storageState: 'state.json',
+    //storageState: 'state.json',
   },
 
   projects:[
